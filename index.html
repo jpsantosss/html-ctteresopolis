@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/ctt-vetor.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Clube de Tiro de Teresópolis</title>
 </head>
 <body>
     <header id="header">
-        <p class="header-contact"><a href="#">21 99999-9999</a></p>
-        <div class="header">
-            <nav class="header-navigation">
+        <div class="header-contact-container">
+            <p class="header-contact"><a href="#">21 99999-9999</a></p>
+        </div>
+        <div class="header-navigation-container">
+            <nav class="navigation-mobile">
+                <img src="images/ctt-vetor.svg" alt="Logo Clube de Tiro de Teresópolis" width="180" class="header-logo">
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <nav class="header-navigation" id="header-navigation" onresize="hideMenu()">
                 <ul class="header-navigation-list">
-                    <li class="header-navigation-list-item">Clube</li>
-                    <li class="header-navigation-list-item">Calendário</li>
-                    <li class="header-navigation-list-item">Eventos</li>
-                    <li class="header-navigation-list-item"><a href="#"><img src="images/ctt-vetor.svg" alt="CTT Logo" width="180" ></a></li>
-                    <li class="header-navigation-list-item">Pistas</li>
-                    <li class="header-navigation-list-item">Fotos</li>
-                    <li class="header-navigation-list-item">Contato</li>
+                    <li class="header-navigation-list-item"><a href="#"><p>Clube</p></a></li>
+                    <li class="header-navigation-list-item"><a href="#"><p>Calendário</p></a></li>
+                    <li class="header-navigation-list-item"><a href="#"><p>Eventos</p></a></li>
+                    <li class="header-navigation-list-item logo-space logo"><a href="#" class="teste"><img src="images/ctt-vetor.svg" alt="Logo Clube de Tiro de Teresópolis" width="180" class="header-logo"></a></li>
+                    <li class="header-navigation-list-item"><a href="#"><p>Pistas</p></a></li>
+                    <li class="header-navigation-list-item"><a href="#"><p>Fotos</p></a></li>
+                    <li class="header-navigation-list-item"><a href="#"><p>Contato</p></a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <script src="script.js"></script>
 </body>
 </html>
