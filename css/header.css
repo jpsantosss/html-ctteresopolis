@@ -12,9 +12,7 @@
     align-items: center;
 }
 .header-contact a{
-    text-decoration: none;
     color: var(--w);
-    font: 400 1.875rem/2.5rem 'Roboto', sans-serif;
     transition: 0.4s ease-out;
 }
 .header-contact a:hover{
@@ -38,9 +36,7 @@
     align-items: center;
 }
 .header-navigation-list-item a{
-    text-decoration: none;
     color: var(--w);
-    font: 700 1.5rem/2.25rem 'Roboto', sans-serif;
     text-transform: uppercase;
     transition: 0.4s ease-out;
 }
@@ -76,9 +72,6 @@
         width: 140px;
         height: 50px;
     }
-    .header-navigation-list-item a{
-        font: 700 1.25rem/2.25rem 'Roboto', sans-serif;
-    }
 }
 @media (max-width: 800px) {
     .header-contact-container{
@@ -89,12 +82,13 @@
     }
     .header-navigation-list{
         position: initial;
+        gap: 10px;
     }
     .header-navigation-list-item a{
-        font: 700 0.875rem/2.25rem 'Roboto', sans-serif;
-    }
-    .header-navigation-list-item a:hover{
-        color: var(--cp009);
+        font: 400 0.875rem/1.43 'Poppins', sans-serif;
+        background-color: var(--cp007);
+        padding: 5px 10px;
+        border-radius: 4px;
     }
     .header-navigation-list-item a:hover{
         color: var(--c003);
@@ -106,8 +100,11 @@
     .logo{
         order: -1;
     }
+    .logo a{
+        background-color: initial;
+    }
 }
-@media (max-width: 600px) {
+@media (max-width: 680px) {
     .navigation-mobile{
         padding: 10px 20px;
         display: flex;
@@ -130,7 +127,6 @@
         background-color: var(--cp006);
     }
     .header-navigation-list-item a{
-        font: 700 1rem/2.5rem 'Roboto', sans-serif;
         text-align: center;
     }
     .header-navigation-list-item .header-logo{

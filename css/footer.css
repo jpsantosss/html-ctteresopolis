@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.footer{
+    background-color: var(--cp006);
+}
+.footer-container{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: var(--w);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-list-title{
+    text-transform: uppercase;
+}
+.footer-list{
+    list-style: none;
+}
