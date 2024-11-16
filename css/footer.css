@@ -5,7 +5,7 @@
 .footer-container{
     max-width: 1200px;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr) 2fr;
     color: var(--w);
     margin: 0 auto;
     padding: 60px 20px;
@@ -40,4 +40,50 @@
 }
 .footer-logo-container div img{
     margin: 0 auto;
+}
+@media (max-width: 1000px) {
+    .footer-container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px 0px;
+    }
+    .flc-contact{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-row: 3;
+        grid-column: 1 / -1;
+    }
+    .footer-list-subcontainer:first-child{
+        padding-right: 30px;
+    }
+    .footer-list-subcontainer + .footer-list-subcontainer{
+        border-top: none;
+        border-left: 3px solid var(--cp011);
+        padding: 0 30px;
+    }
+}
+@media (max-width: 800px) {
+    .flc-contact{
+        display: initial;
+        grid-template-columns: 1fr;
+    }
+    .footer-list-subcontainer + .footer-list-subcontainer{
+        border-top: none;
+        border-left: initial;
+        border-top: 3px solid var(--cp011);;
+        padding: initial;
+        padding: 15px 0;
+    }
+    .footer-list-subcontainer{
+        padding-bottom: initial;
+        padding: 15px 0;
+    }
+}
+@media (max-width: 680px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+        gap: 32px 0px;
+    }
+    .flc-contact{
+        grid-row: initial;
+    }
 }

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.image-container {
+    background: url(../images/home/comunicado-ctt-l.jpeg) center center no-repeat scroll;
+    height: 600px;
+}
+.image-container-2{
+    display: none;
+}
+.image-container-3{
+    display: none;
+}
+@media (max-width: 1200px) {
+    .image-container{
+        display: none;
+    }
+    .image-container-2{
+        display: block;
+    }
+  }
+  @media (max-width: 600px) {
+    .image-container-2{
+        display: none;
+    }
+    .image-container-3{
+        display: block;
+    }
+}
