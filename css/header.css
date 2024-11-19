@@ -20,6 +20,7 @@
 }
 .header-navigation-container{
     background-color: var(--cp006);
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.24);
 }
 .header-navigation{
     display: block;

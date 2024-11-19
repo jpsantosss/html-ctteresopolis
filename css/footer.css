@@ -2,6 +2,7 @@
 .footer{
     background-color: var(--cp008);
     margin-top: 200px;
+    box-shadow: -1px -1px 4px 0px rgba(0, 0, 0, 0.24);
 }
 .footer a:hover{
     color: var(--c002);
