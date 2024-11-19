@@ -2,7 +2,7 @@
 .main{
     margin-bottom: 60px;
 }
-.image-container {
+.image-container-home{
     background: url(../images/home/comunicado-ctt-l.jpeg) center center no-repeat scroll;
     height: 600px;
 }
