@@ -58,7 +58,7 @@
     display: none;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     .header-contact a{
         display: none;
     }
@@ -132,4 +132,4 @@
     .header-navigation-list-item .header-logo{
         display: none;
     }
-}
+} */

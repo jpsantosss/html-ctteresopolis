@@ -1,6 +1,10 @@
 @charset "UTF-8";
 .footer{
     background-color: var(--cp008);
+    margin-top: 200px;
+}
+.footer a:hover{
+    color: var(--c002);
 }
 .footer-container{
     max-width: 1200px;
@@ -41,7 +45,7 @@
 .footer-logo-container div img{
     margin: 0 auto;
 }
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     .footer-container{
         grid-template-columns: repeat(3, 1fr);
         gap: 32px 0px;
@@ -86,4 +90,4 @@
     .flc-contact{
         grid-row: initial;
     }
-}
+} */

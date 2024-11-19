@@ -43,6 +43,7 @@ body {
   line-height: 1.5;
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  background-color: var(--c002);
   }
 /* 5. Improve media defaults */
 img, picture, video, canvas, svg {
@@ -118,7 +119,22 @@ h1, h2, h3, h4, h5, h6 {
 .font-2-xs {
     font: 400 0.875rem/1.43 'Poppins', sans-serif;
 }
-@media (max-width: 1000px) {
+.botao{
+  font: 500 1.3rem/1.3 'Roboto', sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: var(--cp006);
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: var(--w);
+  transition: 0.3s;
+}
+.botao:hover{
+  background-color: var(--cp007);
+  color: var(--c001);
+}
+/* @media (max-width: 1000px) {
     .font-1-xxl {
       font-size: 3rem;
     }
@@ -135,4 +151,4 @@ h1, h2, h3, h4, h5, h6 {
     .font-2-xl {
       font-size: 1.5rem;
     }
-  }
+  } */

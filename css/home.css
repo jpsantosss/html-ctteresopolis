@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.main{
+    margin-bottom: 60px;
+}
 .image-container {
     background: url(../images/home/comunicado-ctt-l.jpeg) center center no-repeat scroll;
     height: 600px;
@@ -9,7 +12,41 @@
 .image-container-3{
     display: none;
 }
-@media (max-width: 1200px) {
+.event-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.event-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: var(--w);
+    border-radius: 4px;
+}
+.event-box-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.event-box-item-title{
+    line-height: 1;
+}
+.event-box-item:first-child{
+    padding-bottom: 10px;
+}
+.event-box-item:nth-child(2){
+    padding-bottom: 10px;
+}
+.event-box-item + .event-box-item{
+    border-top: 2px solid var(--c002);
+    padding-top: 20px;
+}
+.event-box-item-text{
+    text-transform: initial;
+}
+/* @media (max-width: 1200px) {
     .image-container{
         display: none;
     }
@@ -24,4 +61,4 @@
     .image-container-3{
         display: block;
     }
-}
+} */
