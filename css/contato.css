@@ -70,6 +70,7 @@ input#tel,
 input#email,
 input#assunto,
 textarea#msg{
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     background-color: var(--c001);
     border: none;
     border-radius: 4px;
@@ -86,6 +87,7 @@ textarea#msg:focus{
 }
 input.botao{
     margin-top: 20px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 .contatos-item{
     margin-bottom: 8px;

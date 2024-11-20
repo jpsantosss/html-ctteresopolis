@@ -5,12 +5,15 @@
 .main-fotos{
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 4px;
     background-color: var(--w);
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .main-fotos img, .main-fotos video{
     object-fit: fill;
@@ -18,4 +21,10 @@
 }
 .foto-span-column{
     grid-column: span 2;
+}
+#playButton{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
