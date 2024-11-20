@@ -1,0 +1,21 @@
+@charset "UTF-8";
+#header-fotos{
+    margin-bottom: 48px;
+}
+.main-fotos{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: var(--w);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main-fotos img, .main-fotos video{
+    object-fit: fill;
+    border-radius: 4px;
+}
+.foto-span-column{
+    grid-column: span 2;
+}
