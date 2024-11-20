@@ -1,0 +1,98 @@
+@charset "UTF-8";
+#header-contato{
+    margin-bottom: 48px;
+}
+.main-contato{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title-text{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.form, .contatos{
+    padding: 20px;
+}
+.form{
+    border-right: 1px solid var(--c003);
+    display: grid;
+    gap: 0px 20px;
+    grid-template-areas: 
+    "nome-label tel-label"
+    "nome-input tel-input"
+    "email-label assunto-label"
+    "email-input assunto-input"
+    "msg-label msg-label"
+    "msg-input msg-input";
+}
+.form > *:nth-child(even) {
+    margin-bottom: 10px;
+}
+.nome{
+    grid-area: nome-label;
+}
+#nome{
+    grid-area: nome-input;
+}
+.tel{
+    grid-area: tel-label;
+}
+#tel{
+    grid-area: tel-input;
+}
+.email{
+    grid-area: email-label;
+}
+#email{
+    grid-area: email-input;
+}
+.assunto{
+    grid-area: assunto-label;
+}
+#assunto{
+    grid-area: assunto-input;
+}
+.msg{
+    grid-area: msg-label;
+}
+#msg{
+    grid-area: msg-input;
+}
+textarea{
+    resize: none;
+}
+input#nome,
+input#tel,
+input#email,
+input#assunto,
+textarea#msg{
+    background-color: var(--c001);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+input#nome:focus,
+input#tel:focus,
+input#email:focus,
+input#assunto:focus,
+textarea#msg:focus{
+    border: none;
+    border-bottom: 4px solid var(--cp006);
+    outline: 0;
+}
+input.botao{
+    margin-top: 20px;
+}
+.contatos-item{
+    margin-bottom: 8px;
+}
+.contatos-item a{
+    transition: 03.s;
+}
+.contatos-item a:hover{
+    color: var(--c005);
+}

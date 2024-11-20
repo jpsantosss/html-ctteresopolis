@@ -7,11 +7,6 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-.title , .subtitle{
-    font-weight: bold;
-    text-align: center;
-    text-transform: uppercase;
-}
 .subtitle-space{
     margin-bottom: 48px;
 }

@@ -44,6 +44,7 @@ body {
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
   background-color: var(--c002);
+  color: var(--c007);
   }
 /* 5. Improve media defaults */
 img, picture, video, canvas, svg {
@@ -133,6 +134,11 @@ h1, h2, h3, h4, h5, h6 {
 .botao:hover{
   background-color: var(--cp007);
   color: var(--c001);
+}
+.title , .subtitle{
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 /* @media (max-width: 1000px) {
     .font-1-xxl {
