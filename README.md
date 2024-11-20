@@ -17,24 +17,28 @@ O objetivo principal foi demonstrar os conhecimentos adquiridos nas aulas e dese
 
 ### 🎯 Funcionalidades
 🔹 Interatividade com botões e eventos JavaScript 🎛️.
+
 🔹 Organização de conteúdo utilizando boas práticas de HTML e CSS 📋.
 
 ---
 
 ### 🛠️ Tecnologias Utilizadas
 HTML5: Para a construção da estrutura do site.
+
 CSS3: Para o design visual, responsividade e efeitos.
+
 JavaScript: Para adicionar interatividade e dinamismo.
 
 ---
 
 ### 🚀 Como Executar o Projeto
-Você pode executá-lo cliando nesse link:
+Você pode executá-lo cliando nesse link: [Clube de Tiro de Teresópolis](https://jpsantosss.github.io/html-ctteresopolis/)
 
 ---
 
 ### 🎓 Sobre o Projeto Acadêmico
 Proposta: Desenvolver um site com funcionalidades interativas utilizando somente HTML, CSS e JavaScript.
+
 Objetivo: Explorar os fundamentos de desenvolvimento front-end e as boas práticas no uso dessas tecnologias.
 
 ---
