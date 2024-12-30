@@ -1,8 +1,10 @@
 @charset "UTF-8";
-#header-fotos{
+
+#header-fotos {
     margin-bottom: 48px;
 }
-.main-fotos{
+
+.main-fotos {
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -15,14 +17,14 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-.main-fotos img, .main-fotos video{
+
+.main-fotos img,
+.main-fotos video {
     object-fit: fill;
     border-radius: 4px;
 }
-.foto-span-column{
-    grid-column: span 2;
-}
-#playButton{
+
+#playButton {
     display: block;
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
