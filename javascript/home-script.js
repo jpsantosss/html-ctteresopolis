@@ -8,15 +8,9 @@ function changeBackground() {
         imageHome.innerHTML = '<img src="images/home/comunicado-ctt-s.jpeg" alt="Comunicado">'
     } else if (pageWidth < 1130) {
         imageHome.style.backgroundImage = "url('../images/home/comunicado-ctt-m.jpeg')";
-        imageHome.style.backgroundPosition = "center center";
-        imageHome.style.backgroundRepeat = "no-repeat";
-        imageHome.style.backgroundSize = "cover";
         imageHome.innerHTML = "";
     } else {
         imageHome.style.backgroundImage = "url('../images/home/comunicado-ctt-l.jpeg')";
-        imageHome.style.backgroundPosition = "center center";
-        imageHome.style.backgroundRepeat = "no-repeat";
-        imageHome.style.backgroundSize = "cover";
         imageHome.innerHTML = "";
     }
 }
