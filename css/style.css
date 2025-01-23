@@ -1,9 +1,15 @@
 @charset "UTF-8";
+/*Global*/
 @import './global.css';
 @import './header.css';
 @import './footer.css';
+/*Home*/
 @import './home.css';
+/*Clube*/
 @import './clube.css';
+/*Pistas*/
 @import './pistas.css';
+/*Fotos*/
 @import './fotos.css';
+/*Contato*/
 @import './contato.css';
