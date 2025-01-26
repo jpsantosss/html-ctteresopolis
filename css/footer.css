@@ -91,6 +91,9 @@
 }
 
 @media (max-width: 800px) {
+    .footer{
+        margin-top: 120px;
+    }
     .footer-container {
         padding: 40px 20px;
     }

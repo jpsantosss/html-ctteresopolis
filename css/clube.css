@@ -8,9 +8,17 @@
     margin: 0 auto;
 }
 .subtitle-space{
-    margin-bottom: 48px;
+    margin-bottom: 36px;
 }
 .text{
     text-align: center;
     margin-bottom: 20px;
+}
+@media (max-width: 800px){
+    #header-clube{
+        margin-bottom: 32px;
+    }
+    .main-clube .title.font-1-xxl{
+        font-size: 2.75rem;
+    }
 }

@@ -215,6 +215,9 @@ h6 {
   .font-2-xl {
     font-size: 1.5rem;
   }
+  .font-1-l{
+    font-size: 1rem;
+  }
 
   .botao {
     font: 400 1rem/1.5 'Roboto', sans-serif;
