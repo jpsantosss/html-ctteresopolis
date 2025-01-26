@@ -9,21 +9,20 @@
 }
 .pista-container{
     display: flex;
-    gap: 60px;
+    gap: 36px;
     background-color: var(--w);
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 80px;
 }
 .pista-container img{
+    object-fit: cover;
     width: 300px;
-    height: 300px;
     border-radius: 4px;
 }
 .pista-subcontainer{
     padding: 20px;
 }
 .pista-subcontainer-title{
-    font: 600 3rem/1.125 'Poppins', sans-serif;
     margin-bottom: 12px;
 }
