@@ -1,13 +1,16 @@
 @charset "UTF-8";
-#header-pistas{
+
+#header-pistas {
     margin-bottom: 48px;
 }
-.main-pistas{
+
+.main-pistas {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 20px;
 }
-.pista-container{
+
+.pista-container {
     display: flex;
     gap: 36px;
     background-color: var(--w);
@@ -15,14 +18,35 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 80px;
 }
-.pista-container img{
+
+.pista-container img {
     object-fit: cover;
     width: 300px;
     border-radius: 4px;
 }
-.pista-subcontainer{
+
+.pista-subcontainer {
     padding: 20px;
 }
-.pista-subcontainer-title{
+
+.pista-subcontainer-title {
     margin-bottom: 12px;
+}
+
+@media (max-width: 1000px) {
+    .pista-container {
+        gap: 24px;
+    }
+}
+@media (max-width: 680px) {
+    .pista-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .pista-container img {
+        width: 100%;
+    }
+    .pista-subcontainer{
+        padding: 10px 20px 20px 20px;
+    }
 }
