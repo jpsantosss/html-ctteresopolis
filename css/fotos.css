@@ -4,7 +4,10 @@
     margin-bottom: 48px;
 }
 
-.main-fotos {
+.main-fotos{
+    padding: 0 20px;
+}
+.fotos-container {
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -28,5 +31,9 @@
     display: block;
     margin: 0 auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+}
+@media (max-width: 680px){
+    .fotos-container {
+        grid-template-columns: 1fr;
+    }
 }
