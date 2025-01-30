@@ -6,9 +6,14 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.text-container{
+    padding: 0 20px;
+}
 .title-text{
+    margin: 0 auto;
     text-align: center;
     margin-bottom: 24px;
+    max-width: 64ch;
 }
 .form-container{
     display: grid;
@@ -73,15 +78,15 @@ textarea#msg{
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     background-color: var(--c001);
     border: none;
+    border-bottom: 4px solid var(--c001);;
     border-radius: 4px;
-    padding: 5px 10px;
+    padding: 4px 8px 2px;
 }
 input#nome:focus,
 input#tel:focus,
 input#email:focus,
 input#assunto:focus,
 textarea#msg:focus{
-    border: none;
     border-bottom: 4px solid var(--cp006);
     outline: 0;
 }
@@ -97,4 +102,12 @@ input.botao{
 }
 .contatos-item a:hover{
     color: var(--c005);
+}
+@media(max-width: 800px){
+    .form-container{
+        grid-template-columns: 1fr;
+    }
+    .contatos{
+        order: -1;
+    }
 }
