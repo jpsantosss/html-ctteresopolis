@@ -19,11 +19,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.form, .contatos{
+.form, .map-container{
     padding: 20px;
 }
 .form{
-    border-right: 1px solid var(--c003);
     display: grid;
     gap: 0px 20px;
     grid-template-areas: 
@@ -33,6 +32,7 @@
     "email-input assunto-input"
     "msg-label msg-label"
     "msg-input msg-input";
+    align-self: start;
 }
 .form > *:nth-child(even) {
     margin-bottom: 10px;
@@ -78,7 +78,7 @@ textarea#msg{
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
     background-color: var(--c001);
     border: none;
-    border-bottom: 4px solid var(--c001);;
+    border-bottom: 4px solid var(--c001);
     border-radius: 4px;
     padding: 4px 8px 2px;
 }
@@ -94,8 +94,27 @@ input.botao{
     margin-top: 20px;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
-.contatos-item{
-    margin-bottom: 8px;
+.map-container{
+    border-left: 1px solid var(--c003);
+}
+.map{
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px 4px;
+    background-color: var(--w);
+}
+.map a img{
+    border-radius: 4px 4px 0 0;
+}
+.contatos-container{
+    padding: 16px;
+}
+.map-title{
+    margin-bottom: 16px;
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 .contatos-item a{
     transition: 03.s;
@@ -106,8 +125,21 @@ input.botao{
 @media(max-width: 800px){
     .form-container{
         grid-template-columns: 1fr;
+        gap: 20px;
     }
-    .contatos{
-        order: -1;
+}
+@media (max-width: 600px){
+    .form{
+        grid-template-areas: 
+        "nome-label"
+        "nome-input"
+        "tel-label"
+        "tel-input"
+        "email-label"
+        "email-input"
+        "assunto-label"
+        "assunto-input"
+        "msg-label"
+        "msg-input";
     }
 }
