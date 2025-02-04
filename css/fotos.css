@@ -7,6 +7,9 @@
 .main-fotos{
     padding: 0 20px;
 }
+.main-fotos .title{
+    margin-bottom: 32px;
+}
 .fotos-container {
     max-width: 1200px;
     margin: 0 auto;

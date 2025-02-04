@@ -9,6 +9,9 @@
     margin: 0 auto;
     padding: 0px 20px;
 }
+.main-pistas .title{
+    margin-bottom: 32px;
+}
 
 .pista-container {
     display: flex;
