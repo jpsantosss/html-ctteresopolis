@@ -26,8 +26,10 @@
 .header-navigation-container {
     background-color: var(--cp006);
     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.24);
+    position: relative;
 }
 
+/* Estilo do menu no desktop */
 .header-navigation {
     display: block;
 }
@@ -67,10 +69,12 @@
     transform: translateX(-33.5%);
 }
 
+/* Oculta o menu mobile no desktop */
 .navigation-mobile {
     display: none;
 }
 
+/* Ajustes para telas menores */
 @media (max-width: 1000px) {
     .header-contact a {
         display: none;
@@ -133,34 +137,65 @@
     .navigation-mobile {
         padding: 10px 20px;
         display: flex;
-        gap: 20px;
         justify-content: space-between;
         align-items: center;
+        background-color: var(--cp009);
     }
 
-    .fa {
+    .navigation-mobile i {
+        font-size: 1.875rem;
+        cursor: pointer;
         color: var(--w);
     }
 
+    /* Esconde o menu por padrão */
     .header-navigation {
         display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    /* Exibe o menu quando ativo */
+    .header-navigation.active {
+        display: block;
     }
 
     .header-navigation-list {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         padding: 0;
-        display: block;
+        margin-top: 8px;
+        gap: 0;
     }
 
     .header-navigation-list-item {
-        display: block;
-        background-color: var(--cp006);
+        width: 100%;
     }
 
     .header-navigation-list-item a {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 1.2rem;
+        font-weight: bold;
         text-align: center;
+        color: var(--w);
+        background-color: var(--cp007);
+        transition: background 0.3s ease;
+        border-radius: initial;
     }
 
-    .header-navigation-list-item .header-logo {
+    .header-navigation-list-item a:hover {
+        background-color: var(--cp009);
+        color: var(--c003);
+    }
+    .header-navigation-list-item.logo-space {
         display: none;
     }
 }
+
