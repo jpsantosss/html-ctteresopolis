@@ -51,3 +51,4 @@ Objetivo: Explorar os fundamentos de desenvolvimento front-end e as boas prátic
 
 - Email: jpedrosantosoliv@gmail.com
 - GitHub: jpsantosss
+- LinkedIN: [João Pedro dos Santos](https://linkedin.com/in/jpedrosantosoliv)
