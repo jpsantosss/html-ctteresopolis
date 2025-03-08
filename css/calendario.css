@@ -17,16 +17,21 @@ h2 {
 }
 
 .legend {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
   justify-content: center;
-  gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px ;
+}
+
+.legend p{
+  display: flex;
+  align-items: center;
 }
 
 .color-box {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   display: inline-block;
   margin-right: 5px;
 }
@@ -88,6 +93,12 @@ h2 {
 .event.green { background: green; }
 .event.yellow { background: yellow; }
 .event.orange { background: orange; }
+@media (max-width: 1200px){
+  .calendar-container{
+    border-radius: 0px;
+  }
+
+}
 @media (max-width: 900px) {
   #header-calendario{
     margin-bottom: 28px;
