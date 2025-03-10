@@ -111,20 +111,26 @@ h2 {
   font-weight: bold;
 }
 
-.event.blue {
+.event.nacional {
   background: blue;
 }
 
-.event.green {
+.event.steel {
   background: green;
 }
 
-.event.red {
+.event.duelo {
   background: red;
 }
 
-.event.orange {
+.event.fuzil {
   background: orange;
+}
+.event.nacional-fuzil{
+  background: linear-gradient(135deg, blue 50%, orange 50%);
+}
+.event.steel-fuzil{
+  background: linear-gradient(135deg, green 50%, orange 50%);
 }
 
 @media (max-width: 1200px) {
