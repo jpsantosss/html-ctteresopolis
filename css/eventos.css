@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+#header-eventos {
+  margin-bottom: 48px;
+}
+
+.main-eventos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+.main-eventos .title{
+  margin-bottom: 32px;
+}
+
+.main-eventos .eventos {
+  margin-bottom: 32px;
+}
+
+.eventos-campeonatos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 40px;
+  justify-content: center;
+}
+
+.campeonato-container {
+  border: 2px solid var(--cp008);
+  background-color: var(--cp006);
+  max-width: 300px;
+  border-radius: 4px 4px 5px 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex: 0 0 300px;
+}
+
+.campeonato-container img {
+  margin: 10px auto;
+}
+.campeonato-container h2{
+  background-color: var(--w);
+  border-radius: 0 0 4px 4px;
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+}
