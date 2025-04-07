@@ -101,6 +101,11 @@ h2 {
   border-radius: 5px;
 }
 
+.day.week{
+  background-color: white;
+  font-weight: bold;
+}
+
 .empty {
   background: none;
   border: none;
@@ -140,7 +145,7 @@ h2 {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   #header-calendario {
     margin-bottom: 28px;
   }
@@ -155,5 +160,9 @@ h2 {
 
   .day {
     padding: 6px;
+  }
+
+  .day.week{
+    font-size: 12px;
   }
 }
