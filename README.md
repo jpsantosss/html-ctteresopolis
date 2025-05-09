@@ -1,54 +1,53 @@
-# 📚 Projeto de Desenvolvimento Web Front-End
+# 📚 Front-End Web Development Project
 
-Este projeto foi desenvolvido como parte de uma atividade acadêmica proposta por um professor para aplicar conceitos fundamentais de HTML, CSS e JavaScript.
-
----
-
-### 📜 Descrição do Projeto
-Este projeto consiste em uma página web que utiliza:
-
-- **HTML** para a estruturação do conteúdo 🧱.
-- **CSS** para estilização e design ✨.
-- **JavaScript** para tornar a página funcional ⚡.
-
-O objetivo principal foi demonstrar os conhecimentos adquiridos nas aulas e desenvolver habilidades práticas no desenvolvimento web.
+This project was developed as part of an academic activity proposed by a professor to apply fundamental concepts of HTML, CSS, and JavaScript.
 
 ---
 
-### 🎯 Funcionalidades
-🔹 Interatividade com botões e eventos JavaScript 🎛️.
+### 📜 Project Description
+This project consists of a web page that uses:
 
-🔹 Organização de conteúdo utilizando boas práticas de HTML e CSS 📋.
+- **HTML** for content structuring 🧱.
+- **CSS** for styling and design ✨.
+- **JavaScript** to make the page interactive ⚡.
 
----
-
-### 🛠️ Tecnologias Utilizadas
-HTML5: Para a construção da estrutura do site.
-
-CSS3: Para o design visual, responsividade e efeitos.
-
-JavaScript: Para adicionar interatividade e dinamismo.
+The main objective was to demonstrate the knowledge acquired in classes and develop practical skills in web development.
 
 ---
 
-### 🚀 Como Executar o Projeto
-Você pode executá-lo cliando nesse link: [Clube de Tiro de Teresópolis](https://jpsantosss.github.io/html-ctteresopolis/)
+### 🎯 Features
+🔹 Interactivity with buttons and JavaScript events 🎛️.
+
+🔹 Content organization using HTML and CSS best practices 📋.
 
 ---
 
-### 🎓 Sobre o Projeto Acadêmico
-Proposta: Desenvolver um site com funcionalidades interativas utilizando somente HTML, CSS e JavaScript.
-
-Objetivo: Explorar os fundamentos de desenvolvimento front-end e as boas práticas no uso dessas tecnologias.
+### 🛠️ Technologies Used
+- **HTML5**: For building the site structure.
+- **CSS3**: For visual design, responsiveness, and effects.
+- **JavaScript**: To add interactivity and dynamism.
 
 ---
 
-### 📸 Demonstração
-🖼️ Confira uma tela de captura do projeto:
+### 🚀 How to Run the Project
+You can run it by clicking on this link: [Clube de Tiro de Teresópolis](https://jpsantosss.github.io/html-ctteresopolis/)
+
+---
+
+### 🎓 About the Academic Project
+- **Proposal:** Develop a website with interactive functionalities using only HTML, CSS, and JavaScript.
+- **Objective:** Explore front-end development fundamentals and best practices using these technologies.
+
+---
+
+### 📸 Demonstration
+🖼️ Check out a screenshot of the project:
 
 ![image](https://github.com/user-attachments/assets/a830c8a5-0ddc-49dd-80e2-99182fd19d6f)
 
+---
 
-- Email: jpedrosantosoliv@gmail.com
-- GitHub: jpsantosss
-- LinkedIN: [João Pedro dos Santos](https://linkedin.com/in/jpedrosantosoliv)
+### 📞 Contact Information
+- **Email:** jpedrosantosoliv@gmail.com  
+- **GitHub:** [jpsantosss](https://github.com/jpsantosss)  
+- **LinkedIn:** [João Pedro dos Santos](https://linkedin.com/in/jpedrosantosoliv)  
