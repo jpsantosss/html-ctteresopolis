@@ -26,7 +26,7 @@
 .footer-list-title {
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .footer-list-item {
@@ -57,6 +57,12 @@
 
 .footer-logo-container div img {
     margin: 0 auto;
+}
+
+.footer-logo-container div p {
+    text-align: center;
+    color: var(--c003);
+    margin-top: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -91,9 +97,10 @@
 }
 
 @media (max-width: 800px) {
-    .footer{
+    .footer {
         margin-top: 120px;
     }
+
     .footer-container {
         padding: 40px 20px;
     }
